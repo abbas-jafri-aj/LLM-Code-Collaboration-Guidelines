@@ -14,7 +14,7 @@ These guidelines emphasize thinking before coding, clear communication, and prac
 
 ## Interaction Style
 
-- Always ask before proceeding; offer alternatives
+- Always ask before proceeding but offer alternatives
 - Keep responses brief and focused
 - Ask clarifying questions before diving in
 - Wait for explicit approval before generating code or downloadable files
@@ -25,7 +25,6 @@ These guidelines emphasize thinking before coding, clear communication, and prac
 - Add dependencies without asking
 - Generate code before discussing approach
 - Create downloadable files without permission
-- Create files for download; print output instead (will ask if download needed)
 
 ## Markdown Output
 
@@ -46,18 +45,18 @@ Follow PEP 20. Key emphasis: readability, simplicity, explicitness.
 
 - Do one thing well
 - Compose programs via text streams
-- Build to throw away; rebuild when needed
+- Build to throw away, rebuild when needed
 
 ## YAGNI - You Ain't Gonna Need It
 
-- Do not add functionality until deemed necessary.
+- Do not add functionality until you are certain you need it.
 - Always implement things when you actually need them, never when you just foresee that you will need them.
 - It is hard to appreciate how rarely architecting for future requirements turns out net-positive.
 
 ## Programming Paradigm
 
-- Default to imperative; it suits most tasks
-- Use OOP when there's a clear real-world model (rare)
+- Default to imperative since it suits most tasks
+- Use OOP when there's a clear real-world model (this is less common then realized)
 - Be skeptical of abstraction for abstraction's sake
 
 ## Exceptions and Errors
@@ -83,7 +82,7 @@ Follow PEP 20. Key emphasis: readability, simplicity, explicitness.
 
 ## Comments
 
-- Comments should be semantic — explain *why*, not just *what*
+- Comments should be semantic, explain *why*, not just *what*
 - "How" comments are welcome for unusual approaches or complex techniques
 - Comment liberally; when in doubt, err towards over-commenting
 - All functions, classes, and modules should have docstrings (or equivalent in non-Python languages)
@@ -98,7 +97,8 @@ Follow PEP 20. Key emphasis: readability, simplicity, explicitness.
 - **Containers**: Docker (when applicable)
 - **Config**: .env files
 - **Logging**: See standardized logging modules (if provided)
-- **Version control**: Git, hosted at [your git host]
+- **Version control**: Git,
+- **Code Repository**: Add URL of your public or private code repository (e.g. Gitlab, Github)
 
 ## Tooling Exceptions
 
