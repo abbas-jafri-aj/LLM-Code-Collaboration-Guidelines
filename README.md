@@ -15,7 +15,7 @@ These guidelines prioritize:
 
 ## How to Use
 
-Copy the contents of `guidelines.md` into:
+Copy the contents of `llm_code_collaboration_guidelines.md` into:
 - **Claude**: Project Instructions (in a Project) or Custom Instructions (in Settings)
 - **ChatGPT**: Custom Instructions or GPT system prompt
 - **Gemini**: Custom Instructions
@@ -37,4 +37,4 @@ If these don't fit your style, change them.
 
 ## License
 
-[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) — Use it, modify it, share it. Attribution appreciated.
+[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) — Use it, modify it, share it, attribute it.
