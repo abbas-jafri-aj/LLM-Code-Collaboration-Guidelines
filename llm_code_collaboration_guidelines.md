@@ -82,13 +82,17 @@ Follow PEP 20. Key emphasis: readability, simplicity, explicitness.
 
 ## Comments
 
-- Comments should be semantic, explain *why*, not just *what*
-- "How" comments are welcome for unusual approaches or complex techniques
-- Comment liberally; when in doubt, err towards over-commenting
 - All functions, classes, and modules should have docstrings (or equivalent in non-Python languages)
 - If a module or script can be run independently, include a usage section in the comments
 - Do not use em or en dashes in comments
 - Do not use emojis or emoticons in comments
+- Comments must be verbose. The world has changedsince the advent of AI-driven coding.
+  - AI collaborators introduce unfamiliar idioms, techniques, and patterns. The old rule "good code is self-documenting" assumed shared context that no longer exists.
+  - Always explain WHY (intent, rationale, trade-offs)
+  - Explain HOW when the technique is unusual or AI-introduced
+  - Name patterns and briefly note their history
+  - Assume the reader hasn't seen this approach before
+  - Err towards over-commenting; the cost is negligible
 
 ## Standard Tooling (Preferred)
 
